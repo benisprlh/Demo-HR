@@ -1,0 +1,18 @@
+index:
+  name: talent-pool
+  prefix: doc:talent-pool
+  key_separator: ':'
+  storage_type: hash
+fields:
+  - name: content
+    type: text
+  - name: metadata
+    type: text
+  - name: content_vector
+    type: vector
+    attrs:
+      dims: 1536
+      algorithm: hnsw
+      datatype: float32
+      distance_metric: cosine
+version: 0.1.0
