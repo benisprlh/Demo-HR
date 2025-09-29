@@ -8,7 +8,7 @@ ____
 
 1. First, clone this repo and cd into it.
     ```bash
-    $ git clone https://github.com/redis-developer/ArXivChatGuru.git && cd ArxivChatGuru
+    $ git clone https://github.com/benisprlh/Demo-HR.git && cd Demo-HR
     ```
 
 2. Create your env file:
